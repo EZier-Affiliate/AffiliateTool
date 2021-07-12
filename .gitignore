@@ -13,7 +13,8 @@ build.xml
 workspace.json
 sencha-error-*.log
 docs/archive/
-
-ext2/
-modern2/
-classic2/
+/classic.json
+/modern.json
+/classic/
+/modern/
+/ext/
