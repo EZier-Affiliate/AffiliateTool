@@ -1,5 +1,4 @@
 build/
-ext/
 resources/sass/.sass-cache/
 .architect
 bootstrap.css
@@ -13,7 +12,8 @@ resources/.arch-internal-preview.css
 build.xml
 workspace.json
 sencha-error-*.log
-classic.json
-modern.json
-classic/
-modern/
+docs/archive/
+
+ext2/
+modern2/
+classic2/
