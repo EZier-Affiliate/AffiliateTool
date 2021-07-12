@@ -441,6 +441,7 @@
         "enable": false,
         "deltas": "${build.id}/deltas"
     },
+    
 
     /**
      * Used to automatically generate cache.manifest (HTML 5 application cache manifest)
@@ -547,5 +548,35 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "9cf28ff9-b030-4f3d-a8a4-c1132fd644a2"
+    "id": "9cf28ff9-b030-4f3d-a8a4-c1132fd644a2",
+    "progressive": {
+
+        "manifest": {
+    
+            "name": "My App",
+            "short_name": "My App",
+    
+            "icons": [{
+                "src": "resources/icon-small.png",
+                "sizes": "96x96"
+            }, {
+                "src": "resources/icon-medium.png",
+                "sizes": "192x192"
+            }, {
+                "src": "resources/icon-large.png",
+                "sizes": "256x256"
+            }],
+    
+            "theme_color": "#054059",
+            "background_color": "#054059",
+            "display": "standalone",
+            "orientation": "portrait",
+            "start_url": "/index.html"
+        },
+    
+        "serviceWorker": {
+    
+            "runtimeCaching": []
+        }
+    }
 }

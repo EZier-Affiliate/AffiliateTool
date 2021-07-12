@@ -18,3 +18,4 @@ resources/.arch-internal-preview.css
 .arch-internal-preview.css
 build.xml
 workspace.json
+sencha-error-*.log
