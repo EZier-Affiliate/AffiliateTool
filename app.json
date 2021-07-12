@@ -295,7 +295,7 @@
     "production": {
         "output": {
             "appCache": {
-                "enable": true,
+                "enable": false,
                 "path": "cache.appcache"
             }
         },
@@ -548,8 +548,7 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "9cf28ff9-b030-4f3d-a8a4-c1132fd644a2"
-    /**
+    "id": "9cf28ff9-b030-4f3d-a8a4-c1132fd644a2",
     "progressive": {
 
         "manifest": {
@@ -577,12 +576,7 @@
     
         "serviceWorker": {
     
-            "runtimeCaching": [
-                {
-                    "urlPattern": "app.js"
-                }
-            ]
+            "runtimeCaching": []
         }
     }
-    */
 }
