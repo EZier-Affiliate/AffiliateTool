@@ -6,9 +6,7 @@ bootstrap.css
 bootstrap.js
 bootstrap.json
 bootstrap.jsonp
-classic.json
 classic.jsonp
-modern.json
 modern.jsonp
 resources/.arch-internal-preview.css
 .arch-internal-preview.css
@@ -17,3 +15,5 @@ workspace.json
 sencha-error-*.log
 classic/
 modern/
+classic.json
+modern.json
