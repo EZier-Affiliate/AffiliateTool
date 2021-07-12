@@ -1,6 +1,4 @@
-build/development/
-build/staging/
-build/temp/
+build/
 ext/
 modern/
 classic/
